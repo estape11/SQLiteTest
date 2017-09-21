@@ -7,11 +7,12 @@ import android.provider.BaseColumns;
  */
 
 public class CarreraContract {
+
     private CarreraContract(){}
 
     public static class CarreraEntry implements BaseColumns {
         public static final String TABLE_NAME = "Carrera";
-        public static final String COLUMN_NAME_ID = "idCarrera";
-        public static final String COLUMN_NAME_NOMBRE = "nombre";
+        public static final String COLUMN_NAME_ID = "IdCarrera";
+        public static final String COLUMN_NAME_NOMBRE = "Nombre";
     }
 }

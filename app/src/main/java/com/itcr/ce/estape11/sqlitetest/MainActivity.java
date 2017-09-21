@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.itcr.ce.estape11.sqlitetest.db.GastroDBHelper;
-import com.itcr.ce.estape11.sqlitetest.db.entidades.RestContract;
+import com.itcr.ce.estape11.sqlitetest.db.entidades.RestauranteContract;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         GastroDBHelper dbHelper=new GastroDBHelper(this);
-        System.out.println(RestContract.RestEntry._ID);
+        System.out.println(RestauranteContract.RestEntry._ID);
         dbHelper.add();
         System.out.println("KE");
     }
