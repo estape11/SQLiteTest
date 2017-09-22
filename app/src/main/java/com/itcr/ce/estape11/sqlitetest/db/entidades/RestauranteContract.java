@@ -16,5 +16,6 @@ public class RestauranteContract {
         public static final String COLUMN_NAME_NOMBRE = "Nombre";
         public static final String COLUMN_NAME_UBICACION = "Ubicacion";
         public static final String COLUMN_NAME_DESCRIPCION = "Descripcion";
+        public static final String COLUMN_NAME_HORARIO = "Horario";
     }
 }
