@@ -15,5 +15,6 @@ public class VisitaContract {
         public static final String COLUMN_NAME_FECHA = "Fecha";
         public static final String COLUMN_NAME_Ffecga = "Hora";
         public static final String COLUMN_NAME_CARNET = "Carnet";
+        //ERTYUJIKOL
     }
 }
